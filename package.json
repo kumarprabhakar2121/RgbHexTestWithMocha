@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha --reporter mochawesome --require mochawesome/register --reporter-options reportDir=/home/prabhakar/Desktop/Coding/testing/converter/testReports,reportFilename=testResults "
+    "test": "npx mocha --reporter mochawesome --require mochawesome/register --reporter-options reportDir=/home/prabhakar/Desktop/Coding/testing/converter/testReports,reportFilename=testResults",
+    "start": "node app/server.js"
   },
   "keywords": [],
   "author": "",
